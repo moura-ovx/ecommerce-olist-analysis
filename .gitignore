@@ -1,0 +1,21 @@
+# Ambientes Virtuais do Python
+venv/
+.venv/
+env/
+
+# Cache do Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Streamlit (evita salvar cache local e secrets)
+.streamlit/secrets.toml
+
+# Dados brutos e sensíveis
+data/raw/*
+!data/raw/.gitkeep
+
+# Arquivos do sistema e IDEs
+.DS_Store
+.vscode/
+.idea/
