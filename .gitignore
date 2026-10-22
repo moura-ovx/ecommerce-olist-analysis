@@ -11,10 +11,6 @@ __pycache__/
 # Streamlit (evita salvar cache local e secrets)
 .streamlit/secrets.toml
 
-# Dados brutos e sensíveis
-data/raw/*
-!data/raw/.gitkeep
-
 # Arquivos do sistema e IDEs
 .DS_Store
 .vscode/
